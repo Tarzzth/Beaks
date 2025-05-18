@@ -1,5 +1,3 @@
-local url = "https://discord.com/api/webhooks/1371024170581889054/ZnDO1c5wO05anqIg3bPkb_X9rp9zJNdpsKZIjQaDuerSXh8ahLu7SrAxVwQCjwUQXyn6" -- เปลี่ยนเป็นของคุณ
-
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local MarketplaceService = game:GetService("MarketplaceService")
@@ -41,7 +39,7 @@ local headers = {
 local request = http_request or request or syn.request or http.request
 if request then
     request({
-        Url = url,
+        Url = _G.url,
         Method = "POST",
         Headers = headers,
         Body = newdata
